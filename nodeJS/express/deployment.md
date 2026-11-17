@@ -196,6 +196,31 @@ This guide provides a sample for configuring a database connection. Please do no
 
 ---
 
+#### Prisma Postgres
+
+Can deploy databases only.
+
+- Managed PostgreSQL that works with `pg` and Prisma ORM through a standard connection string.
+- Every database has a direct connection string and a pooled connection string.
+- The free plan has no time limit.
+- No credit card required.
+
+##### Prisma Postgres: Free Plan
+
+- 2 GB of storage.
+- 200,000 operations (queries) per month. If you use them all, the database stops accepting queries until the next calendar month.
+- Up to 50 databases.
+- No backups on the free plan.
+- No credit card required.
+
+##### Prisma Postgres: Links
+
+- [Prisma Postgres homepage](https://www.prisma.io/postgres)
+- [Prisma Postgres documentation](https://www.prisma.io/docs/postgres)
+- [Guide: Connect to a Prisma Postgres database](https://www.prisma.io/docs/postgres/database/connecting-to-your-database)
+
+---
+
 ### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
